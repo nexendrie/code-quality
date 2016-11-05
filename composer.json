@@ -1,6 +1,9 @@
 {
     "name": "nexendrie/code-quality",
     "description": "Code quality tools for Nexendrie project",
+    "keywords": [
+        "code", "quality", "testing"
+    ],
     "license": "BSD-3-Clause",
     "homepage": "https://nexendrie.gitlab.io",
     "authors": [
@@ -9,6 +12,11 @@
             "email": "jakub.konecny2@centrum.cz"
         }
     ],
+    "support": {
+        "source": "https://gitlab.com/nexendrie/code-quality/",
+        "issues": "https://gitlab.com/nexendrie/code-quality/issues",
+        "docs": "https://nexendrie.gitlab.io/code-quality"
+    },
     "require": {
         "php": ">=5.6.0",
         "jakub-onderka/php-parallel-lint": "^0.9.2",
