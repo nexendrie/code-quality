@@ -10,9 +10,7 @@
   <exclude-pattern>*/_temp/*</exclude-pattern>
   <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
   <rule ref="Generic.Classes"/>
-  <rule ref="Generic.CodeAnalysis">
-    <exclude name="Generic.CodeAnalysis.EmptyStatement"/>
-  </rule>
+  <rule ref="Generic.CodeAnalysis"/>
   <rule ref="Generic.ControlStructures.InlineControlStructure">
     <properties>
       <property name="error" value="false"/>
@@ -46,8 +44,9 @@
       <property name="indent" value="2"/>
     </properties>
   </rule>
-  <rule ref="Squiz.Classes.DuplicateProperty"/>
-  <rule ref="Squiz.Classes.ValidClassName"/>
+  <rule ref="Squiz.Classes">
+    <exclude name="Squiz.Classes.ClassDeclaration"/>
+  </rule>
   <rule ref="Squiz.ControlStructures">
     <exclude name="Squiz.ControlStructures.ControlSignature"/>
     <exclude name="Squiz.ControlStructures.ElseIfDeclaration"/>
@@ -59,8 +58,7 @@
   <rule ref="Squiz.PHP.GlobalKeyword"/>
   <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
   <rule ref="Squiz.PHP.NonExecutableCode"/>
-  <rule ref="Squiz.Scope.MemberVarScope"/>
-  <rule ref="Squiz.Scope.StaticThisUsage"/>
+  <rule ref="Squiz.Scope"/>
   <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
   <rule ref="PSR1.Files.SideEffects">
     <exclude-pattern>*/tests/*</exclude-pattern>
