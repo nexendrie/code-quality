@@ -11,6 +11,9 @@
   <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
   <rule ref="Generic.Classes"/>
   <rule ref="Generic.CodeAnalysis"/>
+  <rule ref="Generic.CodeAnalysis.EmptyStatement">
+    <type>warning</type>
+  </rule>
   <rule ref="Generic.ControlStructures.InlineControlStructure">
     <properties>
       <property name="error" value="false"/>
