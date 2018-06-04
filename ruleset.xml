@@ -19,7 +19,6 @@
       <property name="error" value="false"/>
     </properties>
   </rule>
-  <rule ref="Generic.Files.ByteOrderMark"/>
   <rule ref="Generic.Files.EndFileNoNewline"/>
   <rule ref="Generic.Files.InlineHTML"/>
   <rule ref="Generic.Files.LineEndings"/>
@@ -35,9 +34,7 @@
   <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
   <rule ref="Generic.Metrics"/>
   <rule ref="Generic.NamingConventions.ConstructorName"/>
-  <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
   <rule ref="Generic.PHP">
-    <exclude name="Generic.PHP.LowerCaseConstant"/>
     <exclude name="Generic.PHP.LowerCaseKeyword"/>
     <exclude name="Generic.PHP.UpperCaseConstant"/>
   </rule>
@@ -64,13 +61,14 @@
   <rule ref="Squiz.PHP.NonExecutableCode"/>
   <rule ref="Squiz.Scope"/>
   <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
+  <rule ref="PSR1"/>
   <rule ref="PSR1.Files.SideEffects">
     <exclude-pattern>*/tests/*</exclude-pattern>
   </rule>
-  <rule ref="PSR1.Methods.CamelCapsMethodName"/>
   <rule ref="PSR2.Classes.PropertyDeclaration"/>
   <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
   <rule ref="PSR2.Methods.FunctionCallSignature"/>
   <rule ref="PSR2.Methods.MethodDeclaration"/>
   <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
+  <rule ref="PSR2.Namespaces.UseDeclaration"/>
 </ruleset>
