@@ -30,6 +30,7 @@
   </rule>
   <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
   <rule ref="Generic.Formatting.SpaceAfterCast"/>
+  <rule ref="Generic.Functions.CallTimePassByReference"/>
   <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
   <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
   <rule ref="Generic.Metrics"/>
@@ -40,12 +41,12 @@
   </rule>
   <rule ref="Generic.Strings"/>
   <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
+  <rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
   <rule ref="Generic.WhiteSpace.ScopeIndent">
     <properties>
       <property name="indent" value="2"/>
     </properties>
   </rule>
-  <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
   <rule ref="Squiz.Classes">
     <exclude name="Squiz.Classes.ClassDeclaration"/>
   </rule>
@@ -61,6 +62,7 @@
   <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
   <rule ref="Squiz.PHP.NonExecutableCode"/>
   <rule ref="Squiz.Scope"/>
+  <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
   <rule ref="Squiz.WhiteSpace.SemicolonSpacing"/>
   <rule ref="PEAR.Functions.ValidDefaultValue"/>
   <rule ref="PSR1"/>
@@ -70,6 +72,7 @@
   <rule ref="PSR2.Classes.PropertyDeclaration"/>
   <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
   <rule ref="PSR2.Methods.FunctionCallSignature"/>
+  <rule ref="PSR2.Methods.FunctionClosingBrace"/>
   <rule ref="PSR2.Methods.MethodDeclaration"/>
   <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
   <rule ref="PSR2.Namespaces.UseDeclaration"/>
