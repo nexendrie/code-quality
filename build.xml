@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="Code quality" basedir="." default="tests">
+  <property name="sources_folder" value="src"/>
   <target name="lint" description="Syntax checks">
     <exec executable="vendor/bin/parallel-lint" logoutput="true" passthru="true" checkreturn="true">
       <arg value="."/>
@@ -29,8 +30,7 @@
       <arg value="7"/>
       <arg value="-c"/>
       <arg path="phpstan.neon"/>
-      <arg path="app"/>
-      <arg path="ci"/>
+      <arg path="${sources_folder}"/>
     </exec>
   </target>
   <target name="tests" description="Unit tests">
@@ -49,7 +49,7 @@
       <arg value="--coverage"/>
       <arg path="./coverage.html"/>
       <arg value="--coverage-src"/>
-      <arg path="./app"/>
+      <arg path="${sources_folder}"/>
       <arg value="-s"/>
     </exec>
   </target>
@@ -61,7 +61,7 @@
       <arg value="--coverage"/>
       <arg path="./coverage.html"/>
       <arg value="--coverage-src"/>
-      <arg path="./app"/>
+      <arg path="${sources_folder}"/>
       <arg value="-s"/>
     </exec>
   </target>
