@@ -50,6 +50,9 @@
   <rule ref="Squiz.Classes">
     <exclude name="Squiz.Classes.ClassDeclaration"/>
   </rule>
+  <rule ref="Squiz.Classes.ClassFileName">
+    <exclude-pattern>*/migrations/*</exclude-pattern>
+  </rule>
   <rule ref="Squiz.ControlStructures">
     <exclude name="Squiz.ControlStructures.ControlSignature"/>
     <exclude name="Squiz.ControlStructures.ElseIfDeclaration"/>
@@ -68,6 +71,9 @@
   <rule ref="PSR1"/>
   <rule ref="PSR1.Files.SideEffects">
     <exclude-pattern>*/tests/*</exclude-pattern>
+  </rule>
+  <rule ref="PSR1.Classes.ClassDeclaration">
+    <exclude-pattern>*/migrations/*</exclude-pattern>
   </rule>
   <rule ref="PSR2.Classes.PropertyDeclaration"/>
   <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
