@@ -1,4 +1,6 @@
 parameters:
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
     excludes_analyse:
         - %rootDir%/../../../tests/_temp/*
     autoload_directories:
