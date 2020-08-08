@@ -3,5 +3,3 @@ parameters:
     checkGenericClassInNonGenericObjectType: false
     excludes_analyse:
         - %rootDir%/../../../tests/_temp/*
-    autoload_directories:
-        - %rootDir%/../../../tests
