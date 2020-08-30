@@ -1,5 +1,6 @@
 parameters:
     checkMissingIterableValueType: false
     checkGenericClassInNonGenericObjectType: false
+    reportMaybesInMethodSignatures: false
     excludes_analyse:
         - %rootDir%/../../../tests/_temp/*
