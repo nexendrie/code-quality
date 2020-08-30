@@ -2,5 +2,6 @@ parameters:
     checkMissingIterableValueType: false
     checkGenericClassInNonGenericObjectType: false
     reportMaybesInMethodSignatures: false
+    treatPhpDocTypesAsCertain: false
     excludes_analyse:
         - %rootDir%/../../../tests/_temp/*
