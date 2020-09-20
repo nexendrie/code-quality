@@ -33,6 +33,7 @@
       <arg value="-c"/>
       <arg path="phpstan.neon"/>
       <arg path="${sources_folder}"/>
+      <arg path="tests"/>
     </exec>
   </target>
   <target name="tests" description="Unit tests">
