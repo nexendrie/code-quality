@@ -16,10 +16,11 @@
     </exec>
   </target>
   <target name="cs" description="Coding standards compliance">
+    <property name="phpcs_standard" value="vendor/nexendrie/code-quality/ruleset.xml"/>
     <exec executable="vendor/bin/phpcs" logoutput="true" passthru="true" checkreturn="true">
       <arg value="--extensions=php,phpt"/>
       <arg value="."/>
-      <arg value="--standard=vendor/nexendrie/code-quality/ruleset.xml"/>
+      <arg value="--standard=${phpcs_standard}"/>
       <arg value="--colors"/>
       <arg value="-p"/>
     </exec>
