@@ -21,8 +21,8 @@
         "php-parallel-lint/php-parallel-lint": "^1.2",
         "php-parallel-lint/php-console-highlighter": "^0.5",
         "squizlabs/php_codesniffer": "^3.5.8",
-        "nexendrie/testbench": "^2.7",
-        "phpstan/phpstan": "^0.12.52",
+        "nexendrie/testbench": "^2.7.1",
+        "phpstan/phpstan": "^0.12.53",
         "phpstan/phpstan-strict-rules": "^0.12.5"
     }
 }
