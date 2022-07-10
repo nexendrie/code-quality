@@ -20,9 +20,9 @@
     "require": {
         "php-parallel-lint/php-parallel-lint": "^1.3",
         "php-parallel-lint/php-console-highlighter": "^0.5",
-        "squizlabs/php_codesniffer": "^3.6",
+        "squizlabs/php_codesniffer": "^3.7.1",
         "nexendrie/testbench": "^2.7.1",
-        "phpstan/phpstan": "^0.12.86",
-        "phpstan/phpstan-strict-rules": "^0.12.9"
+        "phpstan/phpstan": "^1.8",
+        "phpstan/phpstan-strict-rules": "^1.3"
     }
 }
