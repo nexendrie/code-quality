@@ -3,5 +3,5 @@ parameters:
     checkGenericClassInNonGenericObjectType: false
     reportMaybesInMethodSignatures: false
     treatPhpDocTypesAsCertain: false
-    excludes_analyse:
+    excludePaths:
         - %rootDir%/../../../tests/_temp/*
