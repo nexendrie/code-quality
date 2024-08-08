@@ -1,7 +1,8 @@
 parameters:
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
     reportMaybesInMethodSignatures: false
     treatPhpDocTypesAsCertain: false
     excludePaths:
         - %rootDir%/../../../tests/_temp/*
+    ignoreErrors:
+        -
+            identifier: missingType.iterableValue
