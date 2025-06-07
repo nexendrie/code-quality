@@ -30,7 +30,6 @@
   </rule>
   <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
   <rule ref="Generic.Formatting.SpaceAfterCast"/>
-  <rule ref="Generic.Functions.CallTimePassByReference"/>
   <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
   <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
   <rule ref="Generic.Metrics"/>
@@ -49,6 +48,7 @@
   </rule>
   <rule ref="Squiz.Classes">
     <exclude name="Squiz.Classes.ClassDeclaration"/>
+    <exclude name="Squiz.Classes.DuplicateProperty"/>
   </rule>
   <rule ref="Squiz.Classes.ClassFileName">
     <exclude-pattern>*/migrations/*</exclude-pattern>
