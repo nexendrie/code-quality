@@ -26,9 +26,7 @@
   </rule>
   <rule ref="Generic.Strings"/>
   <rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
-  <rule ref="Squiz.Classes">
-    <exclude name="Squiz.Classes.DuplicateProperty"/>
-  </rule>
+  <rule ref="Squiz.Classes"/>
   <rule ref="Squiz.Classes.ClassFileName">
     <exclude-pattern>*/migrations/*</exclude-pattern>
   </rule>
