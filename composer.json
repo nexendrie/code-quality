@@ -23,6 +23,7 @@
         "php-parallel-lint/php-parallel-lint": "^1.4",
         "php-parallel-lint/php-console-highlighter": "^0.5",
         "squizlabs/php_codesniffer": "^4.0",
+        "micheh/phpcs-gitlab": "^2.1",
         "nexendrie/testbench": "^2.7.1",
         "phpstan/phpstan-strict-rules": "^2.0",
         "phpstan/phpstan-deprecation-rules": "^2.0"
