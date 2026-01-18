@@ -2,7 +2,9 @@
     "name": "nexendrie/code-quality",
     "description": "Code quality tools for Nexendrie project",
     "keywords": [
-        "code", "quality", "testing"
+        "code",
+        "quality",
+        "testing"
     ],
     "license": "BSD-3-Clause",
     "homepage": "https://nexendrie.gitlab.io",
