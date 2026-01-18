@@ -15,8 +15,6 @@
         }
     ],
     "support": {
-        "source": "https://gitlab.com/nexendrie/code-quality/",
-        "issues": "https://gitlab.com/nexendrie/code-quality/-/issues",
         "docs": "https://nexendrie.gitlab.io/code-quality"
     },
     "require": {
