@@ -1,0 +1,15 @@
+stages:
+    - deploy
+
+pages:
+    stage: deploy
+    image: nexendrie/php:8.3
+    environment:
+        name: pages
+        url: https://nexendrie.gitlab.io/code-quality
+    script:
+        - composer create-project nexendrie/site-generator
+        - site-generator/generate-site --source=docs --output=public
+    artifacts:
+        paths:
+            - public

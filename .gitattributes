@@ -1,2 +1,3 @@
-.git*   export-ignore
-.editorconfig export-ignore
+.git*           export-ignore
+.editorconfig   export-ignore
+/docs/          export-ignore
