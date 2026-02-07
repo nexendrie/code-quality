@@ -8,7 +8,7 @@ pages:
         name: pages
         url: https://nexendrie.gitlab.io/code-quality
     script:
-        - composer create-project nexendrie/site-generator
+        - composer create-project --no-dev nexendrie/site-generator
         - site-generator/bin/generate-site --source=docs --output=public
     artifacts:
         paths:
