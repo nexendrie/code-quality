@@ -28,15 +28,22 @@
         </exec>
     </target>
     <target name="tests" description="Unit tests">
-        <exec executable="vendor/bin/run-tests" logoutput="true" passthru="true" checkreturn="true">
-            <arg value="-p"/>
-            <arg value="php"/>
-            <arg path="tests"/>
-            <arg value="--coverage"/>
-            <arg path="./coverage.html"/>
-            <arg value="--coverage-src"/>
-            <arg path="${sources_folder}"/>
-            <arg value="-s"/>
-        </exec>
+        <if>
+            <isset property="env.REPORTS"/>
+            <then>
+                <exec executable="vendor/bin/mytester" logoutput="true" passthru="true" checkreturn="true">
+                    <arg value="--colors"/>
+                    <arg value="--resultsFormat"/>
+                    <arg value="junit"/>
+                    <arg value="--coverageFormat"/>
+                    <arg value="cobertura"/>
+                </exec>
+            </then>
+            <else>
+                <exec executable="vendor/bin/mytester" logoutput="true" passthru="true" checkreturn="true">
+                    <arg value="--colors"/>
+                </exec>
+            </else>
+        </if>
     </target>
 </project>
