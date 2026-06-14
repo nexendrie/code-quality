@@ -3,6 +3,7 @@ parameters:
     treatPhpDocTypesAsCertain: false
     excludePaths:
         - %rootDir%/../../../tests/_temp/*
+        - %rootDir%/../../../tests/temp/*
     ignoreErrors:
         -
             identifier: missingType.iterableValue
